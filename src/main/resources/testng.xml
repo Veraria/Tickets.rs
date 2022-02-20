@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tickets.rs">
+    <test verbose="2" preserve-order="true" name="C:/Users/Verica/IdeaProjects/TicketCodeAcademy">
+        <classes>
+            <class name="tests.AddingTicketsToCartTest"/>
+            <class name="tests.FilteringEventsTest"/>
+            <class name="tests.LoginTests"/>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.SearchTest"/>
+
+        </classes>
+    </test>
+</suite>
