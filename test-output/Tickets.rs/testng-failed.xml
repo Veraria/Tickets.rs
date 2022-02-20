@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tickets.rs]">
+  <test thread-count="5" name="C:/Users/Verica/IdeaProjects/TicketCodeAcademy(failed)">
+    <classes>
+      <class name="tests.AddingTicketsToCartTest">
+        <methods>
+          <include name="failureTest"/>
+          <include name="addingTicketsToCartTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddingTicketsToCartTest -->
+    </classes>
+  </test> <!-- C:/Users/Verica/IdeaProjects/TicketCodeAcademy(failed) -->
+</suite> <!-- Failed suite [Tickets.rs] -->

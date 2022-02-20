@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="12" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Clicking event name]]>
+    </line>
+    <line>
+      <![CDATA[Selecting tickets]]>
+    </line>
+    <line>
+      <![CDATA[Number of tickets in the cart: 2]]>
+    </line>
+    <line>
+      <![CDATA[Getting number of tickets in the cart from badge]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot of failed test]]>
+    </line>
+    <line>
+      <![CDATA[ <a href='C:\Users\Verica\IdeaProjects\TicketCodeAcademy.\screenshots\screen_addingTicketsToCartTest.png'> <img src='C:\Users\Verica\IdeaProjects\TicketCodeAcademy.\screenshots\screen_addingTicketsToCartTest.png' height='100' width='200'/> </a>  ]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Cookies accepted]]>
+    </line>
+    <line>
+      <![CDATA[Filters are checked]]>
+    </line>
+    <line>
+      <![CDATA[Current Url equals to: https://www.tickets.rs/city/novi-beograd/category/film-2]]>
+    </line>
+    <line>
+      <![CDATA[Page title is Tickets | Novi Beograd]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[The browser is opened now]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Entering text ovojezapotrebeprojekta@gmail.com in email field]]>
+    </line>
+    <line>
+      <![CDATA[Entering text Ovojezapotrebeprojekta2021 in password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicking submit login button]]>
+    </line>
+    <line>
+      <![CDATA[Current user is: ovojezapotrebeprojekta@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking logout button]]>
+    </line>
+    <line>
+      <![CDATA[Current Url equals to: https://www.tickets.rs/]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Entering text ovojezapotrebeprojekta@gmail.com in email field]]>
+    </line>
+    <line>
+      <![CDATA[Entering text pogresanpassword in password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicking submit login button]]>
+    </line>
+    <line>
+      <![CDATA[Current Url equals to: https://www.tickets.rs/user/login]]>
+    </line>
+    <line>
+      <![CDATA[Error message is present.]]>
+    </line>
+    <line>
+      <![CDATA[Error message is: Unsuccessful Login]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Entering text  in email field]]>
+    </line>
+    <line>
+      <![CDATA[Entering text  in password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicking submit login button]]>
+    </line>
+    <line>
+      <![CDATA[Error message is present.]]>
+    </line>
+    <line>
+      <![CDATA[Error message is: Please enter your email address]]>
+    </line>
+    <line>
+      <![CDATA[Error message is present.]]>
+    </line>
+    <line>
+      <![CDATA[Error message is: mandatory]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Entering text 12345 in email field]]>
+    </line>
+    <line>
+      <![CDATA[Entering text Ovojezapotrebeprojekta2021 in password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicking submit login button]]>
+    </line>
+    <line>
+      <![CDATA[Error message is present.]]>
+    </line>
+    <line>
+      <![CDATA[Error message is: Please enter a valid email address]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Cookies accepted]]>
+    </line>
+    <line>
+      <![CDATA[Current Url equals to: https://www.tickets.rs/user/register?lang=en]]>
+    </line>
+    <line>
+      <![CDATA[Opening and setting Chrome Driver]]>
+    </line>
+    <line>
+      <![CDATA[Cookies accepted]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Searching for an event]]>
+    </line>
+    <line>
+      <![CDATA[Current Url equals to: https://www.tickets.rs/search?q=Andre+Rieu]]>
+    </line>
+  </reporter-output>
+  <suite name="Tickets.rs" duration-ms="112831" started-at="2022-02-18T22:19:14 CET" finished-at="2022-02-18T22:21:07 CET">
+    <groups>
+    </groups>
+    <test name="C:/Users/Verica/IdeaProjects/TicketCodeAcademy" duration-ms="112831" started-at="2022-02-18T22:19:14 CET" finished-at="2022-02-18T22:21:07 CET">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="loginWithValidCredentialsAndLogout()[pri:1, instance:tests.LoginTests@69453e37]" name="loginWithValidCredentialsAndLogout" duration-ms="20121" started-at="2022-02-18T22:20:08 CET" finished-at="2022-02-18T22:20:28 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[The browser is opened now]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[Entering text ovojezapotrebeprojekta@gmail.com in email field]]>
+            </line>
+            <line>
+              <![CDATA[Entering text Ovojezapotrebeprojekta2021 in password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicking submit login button]]>
+            </line>
+            <line>
+              <![CDATA[Current user is: ovojezapotrebeprojekta@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking logout button]]>
+            </line>
+            <line>
+              <![CDATA[Current Url equals to: https://www.tickets.rs/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsAndLogout -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@69453e37]" name="failureTest" is-config="true" duration-ms="0" started-at="2022-02-18T22:20:28 CET" finished-at="2022-02-18T22:20:28 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentialsAndLogout status=SUCCESS method=LoginTests.loginWithValidCredentialsAndLogout()[pri:1, instance:tests.LoginTests@69453e37] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+        <test-method status="PASS" signature="loginWithValidEmailAndInvalidPassword()[pri:2, instance:tests.LoginTests@69453e37]" name="loginWithValidEmailAndInvalidPassword" duration-ms="8159" started-at="2022-02-18T22:20:28 CET" finished-at="2022-02-18T22:20:36 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[Entering text ovojezapotrebeprojekta@gmail.com in email field]]>
+            </line>
+            <line>
+              <![CDATA[Entering text pogresanpassword in password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicking submit login button]]>
+            </line>
+            <line>
+              <![CDATA[Current Url equals to: https://www.tickets.rs/user/login]]>
+            </line>
+            <line>
+              <![CDATA[Error message is present.]]>
+            </line>
+            <line>
+              <![CDATA[Error message is: Unsuccessful Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmailAndInvalidPassword -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@69453e37]" name="failureTest" is-config="true" duration-ms="1" started-at="2022-02-18T22:20:36 CET" finished-at="2022-02-18T22:20:36 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidEmailAndInvalidPassword status=SUCCESS method=LoginTests.loginWithValidEmailAndInvalidPassword()[pri:2, instance:tests.LoginTests@69453e37] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+        <test-method status="PASS" signature="loginWithEmptyEmailAndPasswordFieldTest()[pri:3, instance:tests.LoginTests@69453e37]" name="loginWithEmptyEmailAndPasswordFieldTest" duration-ms="9863" started-at="2022-02-18T22:20:36 CET" finished-at="2022-02-18T22:20:46 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[Entering text  in email field]]>
+            </line>
+            <line>
+              <![CDATA[Entering text  in password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicking submit login button]]>
+            </line>
+            <line>
+              <![CDATA[Error message is present.]]>
+            </line>
+            <line>
+              <![CDATA[Error message is: Please enter your email address]]>
+            </line>
+            <line>
+              <![CDATA[Error message is present.]]>
+            </line>
+            <line>
+              <![CDATA[Error message is: mandatory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyEmailAndPasswordFieldTest -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@69453e37]" name="failureTest" is-config="true" duration-ms="1" started-at="2022-02-18T22:20:46 CET" finished-at="2022-02-18T22:20:46 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithEmptyEmailAndPasswordFieldTest status=SUCCESS method=LoginTests.loginWithEmptyEmailAndPasswordFieldTest()[pri:3, instance:tests.LoginTests@69453e37] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+        <test-method status="PASS" signature="loginWithNumericalEmailAndValidPassword()[pri:4, instance:tests.LoginTests@69453e37]" name="loginWithNumericalEmailAndValidPassword" duration-ms="5263" started-at="2022-02-18T22:20:46 CET" finished-at="2022-02-18T22:20:51 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[Entering text 12345 in email field]]>
+            </line>
+            <line>
+              <![CDATA[Entering text Ovojezapotrebeprojekta2021 in password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicking submit login button]]>
+            </line>
+            <line>
+              <![CDATA[Error message is present.]]>
+            </line>
+            <line>
+              <![CDATA[Error message is: Please enter a valid email address]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithNumericalEmailAndValidPassword -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@69453e37]" name="failureTest" is-config="true" duration-ms="1" started-at="2022-02-18T22:20:51 CET" finished-at="2022-02-18T22:20:51 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithNumericalEmailAndValidPassword status=SUCCESS method=LoginTests.loginWithNumericalEmailAndValidPassword()[pri:4, instance:tests.LoginTests@69453e37] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.AddingTicketsToCartTest">
+        <test-method status="FAIL" signature="addingTicketsToCartTest()[pri:0, instance:tests.AddingTicketsToCartTest@2df3b89c]" name="addingTicketsToCartTest" duration-ms="24038" started-at="2022-02-18T22:19:14 CET" finished-at="2022-02-18T22:19:38 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong number of tickets.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong number of tickets.
+at tests.AddingTicketsToCartTest.addingTicketsToCartTest(AddingTicketsToCartTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Clicking event name]]>
+            </line>
+            <line>
+              <![CDATA[Selecting tickets]]>
+            </line>
+            <line>
+              <![CDATA[Number of tickets in the cart: 2]]>
+            </line>
+            <line>
+              <![CDATA[Getting number of tickets in the cart from badge]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot of failed test]]>
+            </line>
+            <line>
+              <![CDATA[ <a href='C:\Users\Verica\IdeaProjects\TicketCodeAcademy.\screenshots\screen_addingTicketsToCartTest.png'> <img src='C:\Users\Verica\IdeaProjects\TicketCodeAcademy.\screenshots\screen_addingTicketsToCartTest.png' height='100' width='200'/> </a>  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addingTicketsToCartTest -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.AddingTicketsToCartTest@2df3b89c]" name="failureTest" is-config="true" duration-ms="248" started-at="2022-02-18T22:19:38 CET" finished-at="2022-02-18T22:19:38 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingTicketsToCartTest status=FAILURE method=AddingTicketsToCartTest.addingTicketsToCartTest()[pri:0, instance:tests.AddingTicketsToCartTest@2df3b89c] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddingTicketsToCartTest@2df3b89c]" name="tearDown" is-config="true" duration-ms="812" started-at="2022-02-18T22:21:06 CET" finished-at="2022-02-18T22:21:07 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddingTicketsToCartTest -->
+      <class name="tests.FilteringEventsTest">
+        <test-method status="PASS" signature="FilteringEventsByCategoryAndCityTest()[pri:0, instance:tests.FilteringEventsTest@2002fc1d]" name="FilteringEventsByCategoryAndCityTest" duration-ms="29449" started-at="2022-02-18T22:19:38 CET" finished-at="2022-02-18T22:20:08 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Cookies accepted]]>
+            </line>
+            <line>
+              <![CDATA[Filters are checked]]>
+            </line>
+            <line>
+              <![CDATA[Current Url equals to: https://www.tickets.rs/city/novi-beograd/category/film-2]]>
+            </line>
+            <line>
+              <![CDATA[Page title is Tickets | Novi Beograd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FilteringEventsByCategoryAndCityTest -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.FilteringEventsTest@2002fc1d]" name="failureTest" is-config="true" duration-ms="1" started-at="2022-02-18T22:20:08 CET" finished-at="2022-02-18T22:20:08 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FilteringEventsByCategoryAndCityTest status=SUCCESS method=FilteringEventsTest.FilteringEventsByCategoryAndCityTest()[pri:0, instance:tests.FilteringEventsTest@2002fc1d] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+      </class> <!-- tests.FilteringEventsTest -->
+      <class name="tests.RegisterTest">
+        <test-method status="PASS" signature="registerWithValidUsernameAndValidPassword()[pri:0, instance:tests.RegisterTest@6f4a47c7]" name="registerWithValidUsernameAndValidPassword" duration-ms="8603" started-at="2022-02-18T22:20:51 CET" finished-at="2022-02-18T22:21:00 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Cookies accepted]]>
+            </line>
+            <line>
+              <![CDATA[Current Url equals to: https://www.tickets.rs/user/register?lang=en]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@6f4a47c7]" name="failureTest" is-config="true" duration-ms="1" started-at="2022-02-18T22:21:00 CET" finished-at="2022-02-18T22:21:00 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerWithValidUsernameAndValidPassword status=SUCCESS method=RegisterTest.registerWithValidUsernameAndValidPassword()[pri:0, instance:tests.RegisterTest@6f4a47c7] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.SearchTest">
+        <test-method status="PASS" signature="searchForAnEventTest()[pri:0, instance:tests.SearchTest@3d34d211]" name="searchForAnEventTest" duration-ms="6137" started-at="2022-02-18T22:21:00 CET" finished-at="2022-02-18T22:21:06 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening and setting Chrome Driver]]>
+            </line>
+            <line>
+              <![CDATA[Cookies accepted]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Searching for an event]]>
+            </line>
+            <line>
+              <![CDATA[Current Url equals to: https://www.tickets.rs/search?q=Andre+Rieu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForAnEventTest -->
+        <test-method status="PASS" signature="failureTest(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@3d34d211]" name="failureTest" is-config="true" duration-ms="3" started-at="2022-02-18T22:21:06 CET" finished-at="2022-02-18T22:21:06 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForAnEventTest status=SUCCESS method=SearchTest.searchForAnEventTest()[pri:0, instance:tests.SearchTest@3d34d211] output=Opening and setting Chrome Driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- C:/Users/Verica/IdeaProjects/TicketCodeAcademy -->
+  </suite> <!-- Tickets.rs -->
+</testng-results>
