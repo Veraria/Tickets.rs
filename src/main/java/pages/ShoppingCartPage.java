@@ -27,7 +27,7 @@ public class ShoppingCartPage extends BasePage{
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 
-        //deliveryRadioButton.click();
+        deliveryRadioButton.click();
         return this;
     }
 /**
