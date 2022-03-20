@@ -32,5 +32,5 @@ public class Strings {
     public static final String FILTERED_PAGE_TITLE ="Novi Beograd";
 
     //Adding Tickets To Cart Page Test Strings
-    public static final String EVENT= "//a[contains(.,'TRICKY')]";
+    public static final String EVENT= "//h2[text()='Letnji Beogradski Salon Vina']";
 }
