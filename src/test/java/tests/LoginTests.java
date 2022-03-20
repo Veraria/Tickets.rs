@@ -1,7 +1,10 @@
 package tests;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import pages.LoginPage;
 import pages.Strings;
 import static org.testng.Assert.assertEquals;
@@ -35,14 +38,21 @@ Expected result:
 
             // verify that the user is successfully logged in
             // by comparing the current user account name with the expected user account name
-            assertEquals(loginPage.getCurrentUserName(), Strings.USER_ACCOUNT_NAME, "User is incorrect");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertEquals(loginPage.getCurrentUserName(), Strings.USER_ACCOUNT_NAME, "User is incorrect");
             log.info("Current user is: " + loginPage.getCurrentUserName());
             Reporter.log("Current user is: " + loginPage.getCurrentUserName());
 
             loginPage.clickLogoutButton();
             sleep();
+
             // verify that after logging out current page URL equals to Homepage URL.
-            assert isCurrentUrlEqualTo(Strings.HOMEPAGE_URL);
+            //assert isCurrentUrlEqualTo(Strings.HOMEPAGE_URL);
+            String actualUrl = driver.getCurrentUrl();
+            softAssert.assertEquals(actualUrl,Strings.HOMEPAGE_URL , "Actual page url is not the same as expected");
+            softAssert.assertAll();
+            log.info("Current url is: "+actualUrl);
+            Reporter.log("Current url is: "+actualUrl);
 
         } finally {
             driver.quit();
