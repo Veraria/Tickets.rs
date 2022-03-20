@@ -17,7 +17,7 @@ public class AddingTicketsToCartPage extends BasePage{
         this.driver = driver;
         PageFactory.initElements(driver, this);
 }
-    @FindBy (xpath = "//a[@href='/event/tricky_1222']")
+    @FindBy (xpath = "//a[@href='/event/letnji_beogradski_salon_vina_1665']") //a[@href='/event/letnji_beogradski_salon_vina_1665'] //a[@href='/event/tricky_1222']
     WebElement infoAboutTicket;
 
     @FindBy (xpath = "//h4[contains(text(),'Broj ulaznica: 2')]")
