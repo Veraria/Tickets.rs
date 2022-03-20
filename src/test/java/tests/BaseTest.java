@@ -19,10 +19,6 @@ import java.io.FileOutputStream;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Base64;
 import java.util.Calendar;
 
 
@@ -66,19 +62,10 @@ public class BaseTest {
 
         }
     }
-
-/**
-
-
->>>>>>> d5e443665036e41a320107592ad2bcdd128309a0
     @AfterTest
     public void tearDown(){
         driver.quit();
     }
-<<<<<<< HEAD
-*/
-
-
 
     public void print(String text) {
         System.out.println(text);
@@ -86,7 +73,7 @@ public class BaseTest {
 
     public void sleep() {
         try {
-            Thread.sleep(10000);
+            Thread.sleep(7000);
         } catch (Exception e) {
             print(e.getMessage());
         }
