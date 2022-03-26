@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import pages.Strings;
 
@@ -62,7 +63,7 @@ public class BaseTest {
 
         }
     }
-    @AfterTest
+    @AfterSuite
     public void tearDown(){
         driver.quit();
     }
