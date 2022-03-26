@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,8 +16,6 @@ public class ShoppingCartPage extends BasePage{
         PageFactory.initElements(driver, this);
     }
 
-    //@FindBy (xpath = "//label[@for='mat-radio-4-input']")
-    ////*[@id='cdk-step-content-0-0']//div[4]//div[3]//div
     @FindBy (xpath = "//*[@id='mat-radio-4']")
     WebElement deliveryRadioButton;
     @FindBy (xpath = "(//span[contains(text(),' Nastavi')])[1]")
@@ -29,26 +26,28 @@ public class ShoppingCartPage extends BasePage{
     WebElement surnameTextField;
     @FindBy (id="MCDO_email")
     WebElement emailTextField;
-    //TODO ovaj lokator je grozan i ne bi trebalo da uopste postoji
+    // ovaj lokator je grozan
     @FindBy (xpath = "//*[@id=\"cdk-step-content-0-1\"]/div[2]/div/div[3]/div[2]")
-    // TODO nije dobar naziv web elementa
-    WebElement nastaviButton2;
+    WebElement nastaviButtonStep2;
+    @FindBy (xpath="//*[@id='mat-checkbox-1']")
+    WebElement prihvatamCheckBox;
+    @FindBy (xpath = "//*[@id='mat-checkbox-2']")
+    WebElement saglasan_sam_saCheckBox;
+    @FindBy (xpath = "//*[@aria-describedby='cdk-describedby-message-0']")
+    WebElement placanjeButton;
 
-    public ShoppingCartPage scrollToTheBottom(){
+
+
+        public ShoppingCartPage step1ShoppingCart(){
         //scroll down
-
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-// TODO iydvoj ovo u dve metode
         deliveryRadioButton.click();
-        return this;
-    }
-    public ShoppingCartPage clickNastaviButton(){
         nastaviButton.click();
         return this;
-
     }
-    public ShoppingCartPage enterDataToFinishBuyingTickets(){
+
+    public ShoppingCartPage step2EnterDataToFinishBuyingTickets(){
         nameTextField.click();
         nameTextField.sendKeys("Name");
         surnameTextField.click();
@@ -57,12 +56,21 @@ public class ShoppingCartPage extends BasePage{
         emailTextField.sendKeys(Strings.VALID_EMAIL);
         sleep(15);
         JavascriptExecutor executor = (JavascriptExecutor)driver;
-        executor.executeScript("arguments[0].click();", nastaviButton2);
-        // mislim da ovo ispod nije potrebno
-        nastaviButton2.click();
+        executor.executeScript("arguments[0].click();", nastaviButtonStep2);
+        nastaviButtonStep2.click();
         return this;
-
     }
+
+    public ShoppingCartPage step3ShoppingCartReview(){
+        //scroll down
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        executor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        prihvatamCheckBox.click();
+        saglasan_sam_saCheckBox.click();
+        placanjeButton.click();
+        return this;
+    }
+
 /**
     public ShoppingCartPage checkDeliveryRadioButton(){
        /** Actions actions = new Actions(driver);
