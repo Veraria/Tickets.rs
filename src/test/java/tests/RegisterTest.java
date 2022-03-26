@@ -41,6 +41,7 @@ Expected results: 1. Verify the alert message
 
             RegistrationInfoPage registrationInfoPage = registerPage.clickingRegisterButton();
 
+
             // verify the alert message
             assertEquals(registerPage.getCurrentAlertMessage(),Strings.REGISTER_ALERT_MESSAGE,"Alert text incorrect");
 
