@@ -52,12 +52,14 @@ public class AddingTicketsToCartTest extends BaseTest{
             ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
 
 
+            shoppingCartPage.step1ShoppingCart();
+            sleep();
+            shoppingCartPage.step2EnterDataToFinishBuyingTickets();
+            shoppingCartPage.step3ShoppingCartReview();
 
-            shoppingCartPage.scrollToTheBottom();
-            //shoppingCartPage.checkDeliveryRadioButton();
 
         }finally {
-            //driver.quit();
+            driver.quit();
         }
     }
 }
